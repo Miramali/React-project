@@ -13,7 +13,7 @@
 }
 .content{
     position:absolute;
-    width:70vw;
+    width:80%;
     height:60vh; 
      background-color: black;
     border:2px solid #5d0f67;
@@ -48,18 +48,23 @@
     letter-spacing: 2px;
   
 }
+.item{
+    width:100%;
+}
 .itemOne{
-    
-    margin: 0px;
-    padding-left: 76px;
+    width:80%;
+    margin-left: 18px;
+    /* padding:  10px 10px; */
+   
+    padding-right: 10px;
  
 }
-.itemOne h5{
+.content h5{
    
     color:#fff;
-    padding-right: 25px;
+    padding-right: 35px;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    font-size: 3vmin;
+    padding-top:8px;
+    padding-bottom: 10px;
+    font-size: 2.75vmin;
 }

@@ -39,18 +39,18 @@ function Skills(){
     return (
         <div className='skills' id="skills">
         <Container >
-        <Row >
-            <Col className="col-12 ">
-            {/* <div className='skills-items'> */}
-              <div className='content'>
+        <Row  lg={12}>
+            <Col className="col-12 col-sm-12 ">
+            <div className='skills-items'>
+              <div className='content col-sm-12'>
             <h1> Skills</h1>
             <p>You can see my skills here</p>
             <Carousel   responsive={responsive}  infinite={true}>
             
               
-                     <div className='itemOne justify-content-md-start pb-sm-3'>
-              <div style={{ width: 180, height: 180 }}>
-                <CircularProgressbar value={percentage[0]}
+                     <div className='item'>
+              <div   className='itemOne col-sm-12'   style={{ width: 180, height: 180 }}>
+                <CircularProgressbar value={percentage[0] }
   text={`${percentage[0]}%`} style={{
     text: {
         // Text color
@@ -70,8 +70,8 @@ function Skills(){
                  <h5>Web Developement</h5>
                  </div>
                {/* carousel 3 */}
-               <div className='itemOne justify-content-md-start pb-sm-3'>
-              <div style={{width: 180, height: 180}}>
+               <div className='item'>
+              <div  className='itemOne col-sm-12' style={{width: 180, height: 180}}>
                 <CircularProgressbar value={percentage[1]}
   text={`${percentage[1]}%`} style={{
     text: {
@@ -84,12 +84,12 @@ function Skills(){
         fill: '#5d0f67',
       },
       
-  }} /><h5> English</h5>
-                 </div>
+  }} /> </div><h5> Management</h5>
+                 
                  </div>
                 {/* carousel 3 */}
-                <div className='itemOne'>
-              <div style={{ width: 180, height: 180}}>
+                <div className='item'>
+              <div   className='itemOne col-sm-12'style={{ width: 180, height: 180}}>
                 <CircularProgressbar value={percentage[2]}
   text={`${percentage[2]}%`} style={{
     text: {
@@ -107,8 +107,8 @@ function Skills(){
                  </div>
                  <h5>Android App</h5>
                  </div>
-                 <div className='itemOne'>
-              <div style={{ width: 180, height: 180 }}>
+                 <div  className='item'>
+              <div   className='itemOne col-sm-12' style={{ width: 180, height: 180 }}>
                 <CircularProgressbar value={percentage[3]}
   text={`${percentage[3]}%`} style={{
     text: {
@@ -129,7 +129,7 @@ function Skills(){
         
             </Carousel>
             </div>
-            {/* </div> */}
+            </div>
             </Col>
             
 
