@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&family=Tangerine:wght@400;700&display=swap');
+
+.banner{
+    
+    /* background-image: url('../background.jpg') ; */
+    /* background-image: url('./images/peakpx\ \(5\).jpg'); */
+    /* background-image: url('./images/7871.jpg'); */
+    background-image: url('./images/back2.jpg');
+    width:100vw;
+    /* height:90vh; */
+    background-size: cover;
+  background-repeat: no-repeat;
+  opacity:0.8;
+  font-family: 'Montserrat', sans-serif;
+}
+.part1{
+    margin: 250px 0;
+    /* margin-bottom: 200px; */
+    text-transform: capitalize;
+}
+
+.intro{
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+     
+}
+.but{
+/* background: linear-gradient(90deg, rgba(93,15,103,0.9473039215686274) 0%, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 100%); */
+background: linear-gradient(90deg, #AA367C -5.91%, #4A2FBD 111.58%);
+width: fit-content;
+height:60px;
+margin-top: 25px;
+padding: 10px;
+font-size: 20px;
+font-weight: 700;
+border: 2px solid #fff;
+}
+#cl{
+    color:#00d4ff;
+   /* color: linear-gradient(90deg, #AA367C -5.91%, #4A2FBD 111.58%); */
+   font-weight: bold;
+}
+.text{
+    padding: 10px;
+   
+}
+.ptext{
+    font-size: 18px;;
+    letter-spacing: 0.8px;
+    padding: 15px;
+}
+
+
+.connect span{
+    padding:15px;
+}
+
+
+.columns img{
+    margin: auto !important;
+    animation:   grow 5s , drop infinite 5s  linear ;
+}
+@keyframes grow {
+    0% { transform:scale(0)}
+    100%{transform:scale(1,1)}
+    
+}
+@keyframes drop {
+  
+    0%{ transform:translatey(-20%)}
+    50%{transform:translateY(20%)}
+    100%{transform:translateY(-20%)}
+
+    
+}
+.me {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 17px 17px 63px -1px rgba(27,164,191,0.67);
+}
+
+.connect{
+    width:250px;
+    height:70px;
+    position:relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+    background-color: transparent;
+    /* border: 2px solid #f7f1f5; */
+    color:#f4f0f1;
+    margin-left: 20px;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+   
+  }
+  
+  .connect::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    color:#fff !important;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(93,15,103,0.9473039215686274) 100%);
+    overflow: hidden;
+    transition: all 2s ;
+    z-index: -1;
+    filter: brightness(120%) saturate(180%);
+    
+  }
+  .connect:hover:before{
+    width:100%;
+    
+    
+  }

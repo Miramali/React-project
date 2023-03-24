@@ -1,0 +1,85 @@
+.contacts{
+    
+    background: linear-gradient(90deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    /* height: 80vh;
+   
+    */
+    padding: 50px 0 200px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.form-pic{
+   
+   border:none;
+   width:300px;
+   height:300px;
+   /* padding:10px 5px ; */
+   
+   object-fit: cover;
+   animation:   grow  infinite 5s  linear ;
+   
+}
+.contacts img {
+    width: 80%;
+  }
+
+.contacts h2{
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.form{
+    margin-right: 20px;
+}
+.contacts form input, .contacts form textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: #fff;
+    margin: 0 0 8px 0;
+    padding: 18px 26px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    transition: 0.3s ease-in-out;
+  }
+  .contacts form input:focus, .contacts form textarea:focus {
+    background: rgba(255, 255, 255, 1);
+    color: #121212;
+  }
+  .contacts form input::placeholder, .contacts form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .contacts form input:focus::placeholder, .contacts form textarea:focus::placeholder {
+    color: #121212;
+    opacity: 0.8;
+  }
+  .contacts form button {
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 14px 48px;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 0;
+    position: relative;
+    transition: 0.3s ease-in-out;
+  }
+  .contacts form button:hover {
+    color: #faf5f5;
+    background: linear-gradient(90deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  }
+ 
+.contacts form input::placeholder, .contacts form textarea::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+  }
+   
+ 
+
