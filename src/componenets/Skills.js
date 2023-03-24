@@ -40,7 +40,7 @@ function Skills(){
         <div className='skills' id="skills">
         <Container >
         <Row >
-            <Col className="col-12">
+            <Col className="col-12 ">
             {/* <div className='skills-items'> */}
               <div className='content'>
             <h1> Skills</h1>
