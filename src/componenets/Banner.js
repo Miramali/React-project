@@ -25,7 +25,7 @@ const [text]= useTypewriter({
         <Row className=" text-align-center  ">
             <Col className=" col-md-6 col-md-offset-3  mt-5 text-white " xs={12} md={6} xl={7}>
             <div className="part1 pb-sm-2 pt-sm-1 " >
-                <p className='but col-12' >You find every thing in my portofolio</p>
+                <span className='but col-12' >You find every thing in my portofolio</span>
                 <h2 className='text-align-center text'>
                 <p className='intro '>I'M Madiha Kharoubi, {''}</p>
                 <p>Computer Science Eng,</p>

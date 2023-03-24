@@ -33,9 +33,11 @@ width: fit-content;
 height:60px;
 margin-top: 25px;
 padding: 10px;
-font-size: 18px;
+font-size: 3.5vmin;
 font-weight: 700;
 border: 2px solid #fff;
+margin-bottom: 16px;
+  display: inline-block;
 }
 #cl{
     color:#00d4ff;

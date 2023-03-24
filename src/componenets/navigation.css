@@ -64,6 +64,7 @@ nav.navbar .navbar-toggler-icon:before {
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
+  
 	top: 0;
 	left: 0;
 	content: '';
@@ -76,12 +77,14 @@ nav.navbar .navbar-toggler-icon:after {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
 	background-color: #fff;
+  
 	height: 2px;
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 	transform: translateY(8px) rotate(-45deg);
   transform: translateX(50px);
 	background-color: #fff;
+  
 	height: 2px;
   margin-left: 20px;
 }
