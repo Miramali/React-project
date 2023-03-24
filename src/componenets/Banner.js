@@ -47,11 +47,11 @@ const [text]= useTypewriter({
                     
             
             activeClassName="selected">
-            <button className='connect btn '>Let's Connect <span><i class="fa-regular fa-circle-right"></i></span></button></Link>
+            <button className='connect btn pt-sm-0 mt-sm-0 '>Let's Connect <span><i class="fa-regular fa-circle-right"></i></span></button></Link>
             </div>
             </Col>
             <Col className="columns mt-5" xs={12} md={6} xl={5}>
-                <div className='part1 pt-sm-0 '>
+                <div className='part1 pt-xs-1'>
             <img  className="me"  src={icon} alt='portofolio' />
             
             </div>
