@@ -34,7 +34,7 @@ const [text]= useTypewriter({
                
                 
             </h2>
-            <p className='ptext'>Hello, 11 years of experience in management, junior in front End Developping</p>
+            <p className='ptext'> 11 years of experience in management, junior in front End Developping</p>
             <Link
             activeClass="active"
             spy={true}

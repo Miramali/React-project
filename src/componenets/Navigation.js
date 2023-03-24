@@ -13,11 +13,10 @@ import Banner from './Banner';
 import Skills from './Skills';
 import Project from './Project';
 import { HashLink } from 'react-router-hash-link';
-import ScrollToTop from './ScrollToTop';
+
 import {Link, Button} from 'react-scroll';
 // import ScrollButton from 'react-scroll-button';
-import Contact from './Contact';
-import { scrollToBottom } from 'react-scroll/modules/mixins/animate-scroll';
+
 
 
 
@@ -26,11 +25,6 @@ function Navigation() {
     // const [activ, setActiv]= useState('home');
     const [navig, setNavig]= useState(false);
   
-    
-  
-    
-   
-
     const changeNavbar= ()=>{
       console.log(window.scrollY);
       if(window.scrollY>=60){
@@ -62,6 +56,7 @@ function Navigation() {
             smooth={true}
             offset={-70}
             duration={1000}
+            style={{ textDecoration: 'none' }}
             to="home"
             activeClassName="selected">
 
@@ -73,6 +68,7 @@ function Navigation() {
             smooth={true}
             offset={-70}
             duration={1000}
+            style={{ textDecoration: 'none' }}
             to="skills"
             activeClassName="selected">
             
@@ -84,6 +80,7 @@ function Navigation() {
             smooth={true}
             offset={-70}
             duration={1000}
+            style={{ textDecoration: 'none' }}
             to="projects"
             
             activeClassName="selected">
@@ -107,6 +104,7 @@ function Navigation() {
             smooth={true}
             offset={-70}
             duration={1000}
+            style={{ textDecoration: 'none' }}
             targetId="news"
            to="news"
             
@@ -127,11 +125,7 @@ function Navigation() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    {/* <Routes>
     
-             <Route exact path="/contact" element={<Contact />} />
-           
-          </Routes>  */}
          
     </Router>
     

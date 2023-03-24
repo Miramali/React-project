@@ -6,7 +6,7 @@ import './news.css';
 function News(){
     return (
         
-        <section className="news " id="news">
+        <section className="news " id="news" lg={12}>
            
             <Container className="news-content">
                 <Row>
@@ -27,10 +27,7 @@ function News(){
                         </form>
                </Col>
                <Col>
-               {/* <div class="pt-site-footer__submit">
-               <input type="email" placeholder="Your e-mailadress" />
-             <button>LOGIN</button>
-</div> */}
+               
 </Col>
         
                </Row>

@@ -66,9 +66,9 @@ font-family: 'Montserrat', sans-serif;
   }
   
   .news-email button {
-    width: 30%;
+    width: 40%;
     background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    padding: 20px 60px;
+    /* padding: 20px 60px; */
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -77,9 +77,6 @@ font-family: 'Montserrat', sans-serif;
     /* font-size: 15px; */
     font-size: 2.5vmin;
     font-weight: 700;
-    /*  */
-   
-    
     padding: 15px;
     position: absolute;
     right: 5px;

@@ -48,7 +48,7 @@ function Skills(){
             <Carousel   responsive={responsive}  infinite={true}>
             
               
-                     <div className='itemOne'>
+                     <div className='itemOne justify-content-md-start pb-sm-3'>
               <div style={{ width: 180, height: 180 }}>
                 <CircularProgressbar value={percentage[0]}
   text={`${percentage[0]}%`} style={{
@@ -70,7 +70,7 @@ function Skills(){
                  <h5>Web Developement</h5>
                  </div>
                {/* carousel 3 */}
-               <div className='itemOne'>
+               <div className='itemOne justify-content-md-start pb-sm-3'>
               <div style={{width: 180, height: 180}}>
                 <CircularProgressbar value={percentage[1]}
   text={`${percentage[1]}%`} style={{
@@ -84,7 +84,7 @@ function Skills(){
         fill: '#5d0f67',
       },
       
-  }} /><h5>Technical English</h5>
+  }} /><h5> English</h5>
                  </div>
                  </div>
                 {/* carousel 3 */}

@@ -10,10 +10,8 @@ import Skills from './componenets/Skills';
 import {LinkContainer} from 'react-router-bootstrap';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Project from './componenets/Project';
-import ScrollToTop from './componenets/ScrollToTop';
 import Contact from './componenets/Contact';
 import Footer from './componenets/Footer';
-import ParticleBackground from "./componenets/ParticleBackground";
 import News from './componenets/News';
 
 
@@ -32,7 +30,6 @@ function App() {
      <Project />
      <Contact/>
      <News />
-     {/* <ParticleBackground /> */}
      <Footer />
      
      

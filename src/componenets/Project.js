@@ -1,6 +1,4 @@
 import React from 'react';
-import {useTypewriter, Cursor} from 'react-simple-typewriter';
-
 import {Container, Row, Col,Nav} from 'react-bootstrap';
 import './banner.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

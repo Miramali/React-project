@@ -2,16 +2,14 @@
     position:relative;
     /* margin-top: 50px; */
     width:100vw;
-    height:70vh;
+    height:80vh;
     font-family: 'Montserrat', sans-serif;
 
      background-color: black;
 }
 .skills-items{
     /* position: relative; */
-   height:70vh;
-   
-
+   height:80vh;
 }
 .content{
     position:absolute;
@@ -24,13 +22,10 @@
   /* top: 65%; */
   top:30%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -60%); 
   border-radius: 40px;
   text-align: center;
   padding:10px;
-
-  
-  
 
 }
 
@@ -45,26 +40,26 @@
 
 }
 .content p{
-    margin: auto;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 5px;
     color:#dfdfdf;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
-    
-
+  
 }
 .itemOne{
     
-    margin: 0px auto;
-    padding-left: 96px;
-    
-    
+    margin: 0px;
+    padding-left: 76px;
+ 
 }
 .itemOne h5{
-    margin:   5px auto;
+   
     color:#fff;
-    padding-left: auto;
+    padding-right: 25px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 3vmin;
 }
