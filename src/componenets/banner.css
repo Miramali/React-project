@@ -6,18 +6,19 @@
     /* background-image: url('./images/peakpx\ \(5\).jpg'); */
     /* background-image: url('./images/7871.jpg'); */
     background-image: url('./images/back2.jpg');
-    width:100vw;
-    /* height:90vh; */
+    
     background-size: cover;
   background-repeat: no-repeat;
   opacity:0.8;
   font-family: 'Montserrat', sans-serif;
+  padding: 250px 0 120px 0;
 }
 .part1{
-    margin: 250px 0;
+   
     /* margin-bottom: 200px; */
     text-transform: capitalize;
 }
+
 
 .intro{
    
@@ -58,10 +59,14 @@ margin-bottom: 16px;
 .connect span{
     padding:15px;
 }
+/* .picture{
+    width:80%
+} */
 
 
 .columns img{
     margin: auto !important;
+    
     animation:   grow 5s , drop infinite 5s  linear ;
 }
 @keyframes grow {

@@ -23,9 +23,9 @@ const [text]= useTypewriter({
         <Container >
             
         <Row className=" text-align-center  ">
-            <Col className=" col-md-6 col-md-offset-3  mt-5 text-white " xs={12} md={6} xl={7}>
+            <Col  xs={12} md={6} xl={7}>
             <div className="part1 pb-sm-2 pt-sm-1 " >
-                <span className='but col-12' >You find every thing in my portofolio</span>
+                <span className='but col-12' >Welcome in my portofolio</span>
                 <h2 className='text-align-center text'>
                 <p className='intro '>I'M Madiha Kharoubi, {''}</p>
                 <p>Computer Science Eng,</p>
@@ -52,7 +52,7 @@ const [text]= useTypewriter({
             </Col>
             <Col className="columns mt-5" xs={12} md={6} xl={5}>
                 <div className='part1'>
-            <img  className="me"  src={icon} alt='portofolio' />
+            <img  className="me img-fluid"  src={icon} alt='portofolio' />
             
             </div>
             </Col>

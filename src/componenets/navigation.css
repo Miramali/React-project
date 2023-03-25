@@ -38,6 +38,7 @@
 #basic-navbar-nav {
   display: flex;
   justify-content:flex-end;
+  align-items: center;
  
 }
 .custum-nav{
@@ -64,7 +65,7 @@ nav.navbar .navbar-toggler-icon:before {
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
-  
+  /* background: linear-gradient(90deg, #AA367C -5.91%, #4A2FBD 111.58%); */
 	top: 0;
 	left: 0;
 	content: '';
@@ -114,7 +115,9 @@ nav.navbar .navbar-toggler:focus {
   color:#f4f0f1;
   margin-left:  20px;
   cursor: pointer;
-  padding:2px 5px 
+  /* padding:2px 5px ; */
+  padding: 15px;
+  margin:8px;
  
 }
 
@@ -133,13 +136,14 @@ nav.navbar .navbar-toggler:focus {
   z-index: -1;
   filter: brightness(120%) saturate(180%);
   
+  
 }
 a:hover{
   text-decoration: none;
 }
 .letsConnect:hover:before{
   width:100%;
-  color:#cf67b7 !important;
+  /* color:#cf67b7 !important; */
   
 }
 .social-icons a{

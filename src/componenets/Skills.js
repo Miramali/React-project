@@ -49,7 +49,7 @@ function Skills(){
             
               
                      <div className='item'>
-              <div   className='itemOne col-sm-12'   style={{ width: 180, height: 180 }}>
+              <div   className='itemOne justify-content-center col-sm-12'   style={{ width: 180, height: 180 }}>
                 <CircularProgressbar value={percentage[0] }
   text={`${percentage[0]}%`} style={{
     text: {
@@ -71,7 +71,7 @@ function Skills(){
                  </div>
                {/* carousel 3 */}
                <div className='item'>
-              <div  className='itemOne col-sm-12' style={{width: 180, height: 180}}>
+              <div  className='itemOne  justify-content-center col-sm-12' style={{width: 180, height: 180}}>
                 <CircularProgressbar value={percentage[1]}
   text={`${percentage[1]}%`} style={{
     text: {
@@ -88,8 +88,8 @@ function Skills(){
                  
                  </div>
                 {/* carousel 3 */}
-                <div className='item'>
-              <div   className='itemOne col-sm-12'style={{ width: 180, height: 180}}>
+                <div className='item '>
+              <div   className='itemOne  justify-content-center col-sm-12'style={{ width: 180, height: 180}}>
                 <CircularProgressbar value={percentage[2]}
   text={`${percentage[2]}%`} style={{
     text: {
@@ -108,7 +108,7 @@ function Skills(){
                  <h5>Android App</h5>
                  </div>
                  <div  className='item'>
-              <div   className='itemOne col-sm-12' style={{ width: 180, height: 180 }}>
+              <div   className='itemOne col-sm-12 justify-content-center' style={{ width: 180, height: 180 }}>
                 <CircularProgressbar value={percentage[3]}
   text={`${percentage[3]}%`} style={{
     text: {

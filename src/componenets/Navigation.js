@@ -89,14 +89,15 @@ function Navigation() {
            
           </Nav>
           
-          <div className=' navbar-text social-icons text-align-center mt-1'>
+          <div className=' navbar-text  d-flex justify-content-center text-align-center mt-1'>
+            <div className='social-icons mt-4'>
           
                     <a href='https://www.facebook.com/'  target={"a_blank"} alt="facebook"><FontAwesomeIcon className='dd' icon={faFacebookF} /></a>
                     <a href='https://www.youtube.com/watch?v=oHmz42qRfho' target={"a_blank"}  alt="LinkIn"><FontAwesomeIcon className='dd' icon={faTwitter} /></a>
                     <a href='https://www.linkedin.com/in/mad-dz-95a204261' src={''}  target={"a_blank"}alt="Twitter"><FontAwesomeIcon className='dd' icon={faLinkedinIn} /></a>
                     
-                    
-                </div>
+                    </div>
+                
                 
                 <Link
             activeClass="active"
@@ -114,7 +115,7 @@ function Navigation() {
                 <button    className='letsConnect bn1 mt-1'>let's Connect</button></Link>
               {/* <a href="/contact"> <button  className='letsConnect bn1 mt-1'>let's Connect</button> </a> */}
               
-               
+              </div>
                 
                 
                 
